@@ -1,0 +1,8 @@
+{
+  "name": "cloud-functions-resize-proxy",
+  "version": "0.0.1",
+  "dependencies": {
+    "request": "^2.85.0",
+    "sharp": "^0.20.1"
+  }
+}
