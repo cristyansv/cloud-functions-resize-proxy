@@ -1,8 +1,31 @@
 # cloud-functions-resize-proxy
 
+allows you to use [Google Cloud Functions](https://cloud.google.com/functions/)
+as an image proxy, using [sharp](https://github.com/lovell/sharp)
+to transform the image, similar to the functionality
+of [Cloudinary Fetch](https://cloudinary.com/documentation/fetch_remote_images) , and
+also if your browser supports WebP transforms the image to this format.
+
+### Deploy
+
+when creating the function assign as much memory as possible, at this
+moment the limit is `2GB`
+
+the easiest way is to use the integrated google cloud editor and copy
+`index.js` and `package.json` to your desktop
+
+another solution is to download this repository as a zip file and upload
+it directly to Google Cloud unctions
 
 
+#### known issues
+is probably not viable to use in production, it should be taken more as
+an experiment.
 
+The start time of a Cloud Function is approximately `200ms`.
+
+
+----
 MIT License
 
 Copyright (c) 2018 Cristyan Sepúlveda V
