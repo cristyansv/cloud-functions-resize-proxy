@@ -1,7 +1,6 @@
 # cloud-functions-resize-proxy
 
-Allows to use [Google Cloud Functions](https://cloud.google.com/functions/) as a proxy for image processing, similar to [Cloudinary Fetch](https://cloudinary.com/documentation/fetch_remote_images) using [sharp](https://github.com/lovell/sharp), and
-also if your browser supports WebP transforms the image to this format.
+Allows to use [Google Cloud Functions](https://cloud.google.com/functions/) as a proxy for image processing, similar to [Cloudinary Fetch](https://cloudinary.com/documentation/fetch_remote_images) using [sharp](https://github.com/lovell/sharp), if the browser supports WebP, then transform the image to this format.
 
 ### Deploy
 
